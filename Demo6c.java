@@ -11,8 +11,8 @@ public class Demo6c {
         System.out.printf("%s+%2$15s+%2$15s+%2$15s+\n",color1,"---------------");
         System.out.printf("|%s%-15s%s|%s%-15s%s|%s%15s%s|\n",boldWhite,city,color1,boldWhite,state,color1,boldWhite,population,color1);
         System.out.printf("%s+%2$15s+%2$15s+%2$15s+\n",color1,"---------------");
-        System.out.printf("|%s%-15s%s|%s%-15s%s|%s%,15d%s|\n",white,city1,color1,white,city2,color1,color2,pop1,color1);
-         System.out.printf("|%sNew %s%-11s%s|%sNew %s%-11s%s|%s%,15d%s|\n",color3,white,city3,color1,color3,white,city3,color1,color2,pop2,color1);
+        System.out.printf("|%s%-15s%s|%s%-15s%s|%s%,-15d%s|\n",white,city1,color1,white,city2,color1,color2,pop1,color1);
+         System.out.printf("|%sNew %s%-11s%s|%sNew %s%-11s%s|%s%,-15d%s|\n",color3,white,city3,color1,color3,white,city3,color1,color2,pop2,color1);
         System.out.printf("%s+%2$15s+%2$15s+%2$15s+\n",color1,"---------------");
         
     }
